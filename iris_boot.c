@@ -101,7 +101,7 @@ main(int argc, char **argv)
 
 		if (strstr(bootfile, "dksc(")) {
 			partitionparse(bootfile);
-			strcpy(kernelname, "netbsd_R3K");
+			strcpy(kernelname, "netbsd");
 		} else {
 			again();
 		}
